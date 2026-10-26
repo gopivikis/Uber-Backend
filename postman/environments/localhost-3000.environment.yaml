@@ -1,0 +1,4 @@
+name: 'localhost:3000'
+values:
+  - key: baseUrl
+    value: ''

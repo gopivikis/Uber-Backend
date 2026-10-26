@@ -1,0 +1,21 @@
+$kind: http-request
+url: "{{baseUrl}}/users/register"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\": \"vickyyed.s@gmail.com\",\r
+
+    \    \"fullName\": {\r
+
+    \        \"firstName\": \"Viki\",\r
+
+    \        \"lastName\": \"Gopi\"\r
+
+    \    },\r
+
+    \    \"password\": \"Gopinath1!\"\r
+
+    }"
+order: 2000
